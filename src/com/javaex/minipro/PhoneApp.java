@@ -39,6 +39,8 @@ public class PhoneApp {
 			pList.add(p);
 		}
 		
+		br.close();
+		
 		System.out.println("*********************************");
 		System.out.println("*       전화번호 관리 프로그램       *");
 		System.out.println("*********************************");
@@ -130,7 +132,7 @@ public class PhoneApp {
 			}
 			
 		}
-		
+		sc.close();
 	}
 	
 	public static void showList(List<Person> pList) {
