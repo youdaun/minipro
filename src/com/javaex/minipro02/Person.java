@@ -1,10 +1,14 @@
-package com.javaex.minipro;
+package com.javaex.minipro02;
 
 public class Person {
 
 	private String name;
 	private String hp;
 	private String company;
+
+	public Person() {
+
+	}
 
 	public Person(String name, String hp, String company) {
 		this.name = name;
@@ -35,4 +39,7 @@ public class Person {
 	public void setCompany(String company) {
 		this.company = company;
 	}
+	
+	
+
 }
