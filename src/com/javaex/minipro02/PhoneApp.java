@@ -1,11 +1,8 @@
 package com.javaex.minipro02;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Reader;
 import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
@@ -57,6 +54,7 @@ public class PhoneApp {
 				fw = new FileWriter("C:\\javaStudy\\file\\PhoneDB_minipro.txt");
 				bw = new BufferedWriter(fw);
 				
+				pm.removeList(pList, sc);
 				pm.writeTxt(pList, bw);
 				break;
 				
